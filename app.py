@@ -7,7 +7,7 @@ st.title("World Population Visualization")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("API_SP.POP.TOTL_DS2_en_csv_v2_XXXXXXX.csv", skiprows=4)
+    df = pd.read_csv("API_SP.POP.TOTL_DS2_en_csv_v2_85220.csv", skiprows=4)
     return df
 
 df = load_data()
